@@ -1,0 +1,19 @@
+{
+  "name": "PoliMi Login",
+  "version": "0.1",
+  "description": "Automate the login process of PoliMi Online Services",
+  "content_scripts": [
+    {
+      "matches": ["*://*.polimi.it/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "manifest_version": 2
+}
