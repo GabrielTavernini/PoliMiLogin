@@ -1,6 +1,6 @@
 {
   "name": "PoliMi Login",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Automate the login process of PoliMi Online Services",
   "content_scripts": [
     {

@@ -13,8 +13,8 @@ function main (evt) {
 					if(document.querySelector("#RESTA_CONNESSO"))
 						document.querySelector("#RESTA_CONNESSO").click();
 
-					if(document.querySelector("#auth-polimi > form > button"))
-						document.querySelector("#auth-polimi > form > button").click();
+					if(document.querySelector("#table-credenziali > div.jaf-infocard-contents > div:nth-child(3) > div > div.button-left > button"))
+						document.querySelector("#table-credenziali > div.jaf-infocard-contents > div:nth-child(3) > div > div.button-left > button").click();
 				}
 		  });
 
