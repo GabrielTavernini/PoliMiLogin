@@ -18,7 +18,7 @@ function main (evt) {
 				}
 		  });
 
-		if(document.querySelector("#jafBodyContainer > table.TablePage > tbody > tr > td.CenterBar > a:nth-child(3)"))
-			document.querySelector("#jafBodyContainer > table.TablePage > tbody > tr > td.CenterBar > a:nth-child(3)").click();
+		if(document.querySelector("body > div > div > div > div > main > div.button-right > a"))
+			document.querySelector("body > div > div > div > div > main > div.button-right > a").click();
 	}
 }
